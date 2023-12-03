@@ -16,7 +16,7 @@ class Subject {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter grades for subject " + name + ":");
         grades = new double[5];
-        for (int i = 0; i > 5; i++) {
+        for (int i = 0; i < 5; i++) {
             do {
                 System.out.print("Enter grade " + (i + 1) + ": ");
                 double grade = scanner.nextDouble();
